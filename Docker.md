@@ -21,7 +21,7 @@ Basitçe söylemek gerekirse, kapsayıcı, makinenizde bulunan ve ana makinedeki
 * Taşınabilirdir (herhangi bir işletim sisteminde çalıştırılabilir).
 * Diğer konteynerlerden yalıtılmıştır ve kendi yazılımını, ikili dosyalarını ve yapılandırmalarını çalıştırır.
 
-![Alt text](image.png)
+![Alt text](docker-img/image.png)
 
 
 # Image Nedir:
@@ -176,7 +176,7 @@ volumes:
 ```
 docker --version
 ```
-![Alt text](<Screenshot from 2023-07-18 14-44-29.png>)
+![Alt text](<docker-img/Screenshot from 2023-07-18 14-44-29.png>)
 
 2. docker pull 
 * Bu komut, docker deposundan (hub.docker.com) görüntüleri çekmek için kullanılır.
@@ -184,7 +184,7 @@ docker --version
 ```
 docker pull redis
 ```
-![Alt text](<Screenshot from 2023-07-18 14-49-04.png>)
+![Alt text](<docker-img/Screenshot from 2023-07-18 14-49-04.png>)
 
 3. docker run 
 Bu komut, bir görüntüden bir container oluşturmak için kullanılır.
@@ -195,14 +195,14 @@ Bu komut, bir görüntüden bir container oluşturmak için kullanılır.
 ```
 docker run -it -d redis
 ```
-![Alt text](<Screenshot from 2023-07-18 14-55-56.png>)
+![Alt text](<docker-img/Screenshot from 2023-07-18 14-55-56.png>)
 
 4. docker ps 
 Çalışan container listeler
 ```
 docker ps
 ```
-![Alt text](<Screenshot from 2023-07-18 14-59-45.png>)
+![Alt text](<docker-img/Screenshot from 2023-07-18 14-59-45.png>)
 
 5. docker ps -a
 
@@ -210,7 +210,7 @@ Duran ve çalışan containerları listeler.
 ```
 docker ps -a
 ```
-![Alt text](<Screenshot from 2023-07-18 15-02-56.png>)
+![Alt text](<docker-img/Screenshot from 2023-07-18 15-02-56.png>)
 
 6. docker exec
 
@@ -222,7 +222,7 @@ Bu komut, çalışan kapsayıcıya erişmek için kullanılır.
 docker exec -it 3fa bash
 ```
 
-![Alt text](<Screenshot from 2023-07-18 15-07-03.png>)
+![Alt text](<docker-img/Screenshot from 2023-07-18 15-07-03.png>)
 
 7. docker stop
 
@@ -232,7 +232,7 @@ Bu komut çalışan bir konteyneri durdurur.
 ``` 
 docker stop 2df 
 ```
-![Alt text](<Screenshot from 2023-07-18 15-39-22.png>)
+![Alt text](<docker-img/Screenshot from 2023-07-18 15-39-22.png>)
 
 8. docker kill
 
@@ -347,11 +347,11 @@ Farklı bileşenlerin işlevleri:
 
 ### Docker Image, projenin tüm kodunu içerir.
 
-![Alt text](<Screenshot from 2023-07-18 16-26-31.png>)
+![Alt text](<docker-img/Screenshot from 2023-07-18 16-26-31.png>)
 
 ### Docker Image kullanarak, herhangi bir kullanıcı Docker Konteynerleri oluşturmak için kodu çalıştırabilir.
 
-![Alt text](<Screenshot from 2023-07-18 16-27-20.png>)
+![Alt text](<docker-img/Screenshot from 2023-07-18 16-27-20.png>)
 
 Docker Image oluşturulduktan sonra, bir registry veya bir Docker Hub'a yüklenir.
 
